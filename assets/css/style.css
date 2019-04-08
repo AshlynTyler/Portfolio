@@ -1,0 +1,52 @@
+*{
+    color: #ddffcc;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 18px
+}
+
+body{
+    background: #110022
+}
+
+.tab{
+    width: 200px;
+    height: 70px;
+
+    font-size: 40px;
+
+    text-align: center;
+}
+
+#navbar{
+    height: 100px;
+
+    justify-content: left;
+
+    border-bottom:  3px solid  #aadd55;
+
+    align-items: flex-end;
+}
+
+#tab-holder{
+    
+
+    justify-content: space-around;
+}
+
+.flex-container{
+    display: flex;
+}
+
+#name{
+    font-size: 40px;
+
+    margin-left: 20px;
+
+    margin-right: 100px;
+
+    color: #ff0066;
+
+    height: 70px;
+}
