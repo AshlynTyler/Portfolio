@@ -24,7 +24,7 @@ body{
 
     justify-content: left;
 
-    border-bottom:  3px solid  #aadd55;
+    border-bottom:  2px solid  #aadd55;
 
     align-items: flex-end;
 }
@@ -49,4 +49,65 @@ body{
     color: #ff0066;
 
     height: 70px;
+}
+
+#portfolio-holder{
+    padding: 100px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.project-card{
+    width: 600px;
+
+    justify-content: space-between;
+
+    border: 1px solid #aadd55;
+
+    border-radius: 5px;
+
+    margin-bottom: 50px;
+}
+
+.project-aside{
+    margin: 20px;
+
+    position: relative;
+}
+
+.project-link{
+    background: #ff0066;
+    color: #ffffff;
+
+    border-radius: 5px;
+
+    padding: 10px;
+
+}
+
+p{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.link{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.repo{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.project-image{
+    margin: 15px;
 }
