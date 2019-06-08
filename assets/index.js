@@ -83,8 +83,20 @@ function renderAbout(){
     $("#content-container").html(`<div id = "about-holder" class = "flex-container">
         <p id= "about-paragraph">
             Hi!  I'm Ashlyn Tyler!  I'm a hobbyist game developer and aspiring professional programmer and web developer!  I like to solve problems and create things, and have a love of art and science.  I am a full stack developer proficient in html, css, javascript, and jquery with a specialty in front end developement and design.
-        <p>
+        </p>
     
+    </div>`)
+}
+
+function renderContact(){
+    $("#content-container").html(`<div id = "about-holder">
+    <p>
+        Email:  AshlynTyler72@gmail.com
+    </p>
+    <p>
+
+        Github: https://github.com/AshlynTyler
+    </p>
     </div>`)
 }
 
