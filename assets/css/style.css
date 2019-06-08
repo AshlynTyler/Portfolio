@@ -17,6 +17,12 @@ body{
     font-size: 40px;
 
     text-align: center;
+
+    cursor: pointer;
+
+    user-select: none;
+
+    -moz-user-select: none;
 }
 
 #navbar{
@@ -56,7 +62,7 @@ body{
 
     display: flex;
 
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     flex-wrap: wrap;
 
@@ -89,6 +95,9 @@ body{
 
     padding: 10px;
 
+    user-select: none;
+
+    -moz-user-select: none;
 }
 
 p{
@@ -110,4 +119,45 @@ p{
 
 .project-image{
     margin: 15px;
+}
+
+#project-title{
+    font-size: 24px;
+
+    color: #ff0066;
+}
+
+#nav-holder{
+    position: relative;
+}
+
+#nav-canvas, #nav-canvas-click{
+    position: absolute;
+    left: 0;
+
+    top: 0;
+
+    height: 100%;
+
+    width: 100%;
+
+    z-index: -20;
+}
+
+#about-holder{
+    width: 1000px;
+
+    justify-content: center;
+
+    border: 1px solid #aadd55;
+
+    border-radius: 5px;
+
+    margin: 50px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding: 50px;
 }
