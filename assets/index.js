@@ -36,6 +36,13 @@ function Project(name,info,image,link,repo){
 //array of projects
 const projects = [
     new Project(
+        "Light Hockey",
+        "An online multiplayer airhockey browser game I made from scratch using React and Socket.io along with HTML Canvas",
+        "assets/images/light-hockey.png",
+        "https://github.com/AshlynTyler/light-hockey",
+        "https://arcane-chamber-75987.herokuapp.com/"
+    ),
+    new Project(
         "Adventure Setter",
         "My first group project.  I worked on the front and back end for the results list.",
         "assets/images/adventure-setter.png",
@@ -82,7 +89,7 @@ renderPortfolio()
 function renderAbout(){
     $("#content-container").html(`<div id = "about-holder" class = "flex-container">
         <p id= "about-paragraph">
-            Hi!  I'm Ashlyn Tyler!  I'm a hobbyist game developer and aspiring professional programmer and web developer!  I like to solve problems and create things, and have a love of art and science.  I am a full stack developer proficient in html, css, javascript, and jquery with a specialty in front end developement and design.
+        Hi!  I'm Ashlyn Tyler!  I started coding even before I was a teenager.  Starting with simple, buggy computer games that gradually taught me the fundamentals of coding as I attempted to expand my knowledge and improved my craft over several years.  I enrolled in the University of Utah’s Web Development Bootcamp in order to expand my very narrow programming scope into web development and learn some basic but invaluable skills and resources to help me on my journey.
         </p>
     
     </div>`)
