@@ -17,7 +17,7 @@ function Project(name,info,image,link,repo){
     this.addToPortfolio = function(){
         $("#portfolio-holder").append(`
         <div class = "project-card flex-container">
-        <img class = "project-image" src = ${this.image} width = "279px" height = "270px">
+        <img class = "project-image" src = ${this.image} height = "270px">
 
         <div class = "project-aside">
             <p id= "project-title">${this.name}</p>
@@ -37,11 +37,10 @@ function Project(name,info,image,link,repo){
 const projects = [
     new Project(
         "Light Hockey",
-        "An online multiplayer airhockey browser game I made from scratch using React and Socket.io along with HTML Canvas",
+        "An online multiplayer airhockey browser game I made from scratch using React and Socket.io along with HTML Canvas.",
         "assets/images/light-hockey.png",
-        "https://github.com/AshlynTyler/light-hockey",
-        "https://arcane-chamber-75987.herokuapp.com/"
-    ),
+        "https://arcane-chamber-75987.herokuapp.com",
+        "https://github.com/AshlynTyler/light-hockey"),
     new Project(
         "Adventure Setter",
         "My first group project.  I worked on the front and back end for the results list.",
