@@ -106,6 +106,8 @@ function renderContact(){
     </div>`)
 }
 
+
+
 // creating canvas constants
 
 const canvas = document.getElementById("nav-canvas")
