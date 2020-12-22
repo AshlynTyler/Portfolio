@@ -60,6 +60,15 @@ const projects = [
         "assets/images/light-hockey.png",
         "https://arcane-chamber-75987.herokuapp.com",
         "https://github.com/AshlynTyler/light-hockey"),
+
+    new Project(
+        "Conway's Game of Life",
+        "This was another personal project I made using javascript and html canvas.  I tried to make the best version of the Game of Life that I could.",
+        "./assets/images/game-of-life.png",
+        "https://ashlyntyler.github.io/Conways-Game-of-Life",
+        "https://github.com/AshlynTyler/Conways-Game-of-Life"
+
+    ),
     
     new Project(
         "Dragon Curve",
@@ -75,14 +84,7 @@ const projects = [
         "https://ashlyntyler.github.io/WordGuessGame",
         "https://github.com/AshlynTyler/WordGuessGame"),
 
-    new Project(
-        "Conway's Game of Life",
-        "This was another personal project I made using javascript and html canvas.  I tried to make the best version of the Game of Life that I could.",
-        "./assets/images/game-of-life.png",
-        "https://ashlyntyler.github.io/Conways-Game-of-Life",
-        "https://github.com/AshlynTyler/Conways-Game-of-Life"
 
-    ),
 
     new Project(
         "Game Jam Games",
