@@ -15,21 +15,40 @@ function Project(name,info,image,link,repo){
     this.repo = repo;
 
     this.addToPortfolio = function(){
-        $("#portfolio-holder").append(`
-        <div class = "project-card flex-container">
-        <img class = "project-image" src = ${this.image} height = "270px">
+        if(this.repo === "none")
+        {
+            console.log("yo")
+            $("#portfolio-holder").append(`
+            <div class = "project-card flex-container">
+            <img class = "project-image" src = ${this.image} height = "270px">
 
-        <div class = "project-aside">
-            <p id= "project-title">${this.name}</p>
+            <div class = "project-aside">
+                <p id= "project-title">${this.name}</p>
 
-            <p class = "project-description">${this.info}</p>
+                <p class = "project-description">${this.info}</p>
 
-            <a class = "project-link link" href = ${this.link}>Link</a>
-
-            <a class = "project-link repo" href = ${this.repo}>Repo</a>
-        </div>
-    </div>`
+                <a class = "project-link link" href = ${this.link}>Link</a>
+            </div>
+            </div>`
         )
+        }
+        else{
+            $("#portfolio-holder").append(`
+            <div class = "project-card flex-container">
+            <img class = "project-image" src = ${this.image} height = "270px">
+
+            <div class = "project-aside">
+                <p id= "project-title">${this.name}</p>
+
+                <p class = "project-description">${this.info}</p>
+
+                <a class = "project-link link" href = ${this.link}>Link</a>
+
+                <a class = "project-link repo" href = ${this.repo}>Repo</a>
+            </div>
+            </div>`
+        )
+        }
     }
 }
 
@@ -41,12 +60,6 @@ const projects = [
         "assets/images/light-hockey.png",
         "https://arcane-chamber-75987.herokuapp.com",
         "https://github.com/AshlynTyler/light-hockey"),
-    new Project(
-        "Adventure Setter",
-        "My first group project.  I worked on the front and back end for the results list.",
-        "assets/images/adventure-setter.png",
-        "https://emssslay.github.io/travel-project/index.html",
-        "https://github.com/emssslay/travel-project"),
     
     new Project(
         "Dragon Curve",
@@ -69,6 +82,14 @@ const projects = [
         "https://ashlyntyler.github.io/Conways-Game-of-Life",
         "https://github.com/AshlynTyler/Conways-Game-of-Life"
 
+    ),
+
+    new Project(
+        "Game Jam Games",
+        "Various games I've made for the Ludum Dare 48 hour game dev competition.  All games were made from the ground up in Game Maker in 48 hours including art, sound, coding, and design.",
+        "./assets/images/ludum-dare.png",
+        "http://ludumdare.itch.io/u/ghostbomb",
+        "none"
     )
     
 ]

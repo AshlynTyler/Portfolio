@@ -111,14 +111,18 @@ p{
 
 .link{
     position: absolute;
-    bottom: 15px;
-    left: 15px;
+    bottom: 5px;
+    left: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .repo{
     position: absolute;
-    bottom: 15px;
+    bottom: 5px;
     right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .project-image{
