@@ -78,6 +78,14 @@ const projects = [
         "https://github.com/AshlynTyler/dragon-curve"),
     
     new Project(
+        "Spirograph Toy",
+        "A personal front end project I am currently polishing.  This visual interactive toy creates beautiful art with HTML canvas using paramaters entered by the user.",
+        "assets/images/spirograph.png",
+        "https://ashlyntyler.github.io/Spirograph",
+        "https://github.com/AshlynTyler/Spirograph"
+    ),
+    
+    new Project(
         "Artist Hangman",
         "One of my first real projects using javascript.  Very very basic but I'm still pleased with it.",
         "assets/images/artist-hangman.png",
@@ -92,7 +100,9 @@ const projects = [
         "./assets/images/ludum-dare.png",
         "http://ludumdare.itch.io/u/ghostbomb",
         "none"
-    )
+    ),
+
+
     
 ]
 
