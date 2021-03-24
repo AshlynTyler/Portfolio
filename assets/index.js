@@ -352,6 +352,8 @@ $(document).on("mouseleave",".tab",function(event){
         $("#nav-canvas").height())
 })
 
+//Renders different pages when clicking on them in the nav bar.
+
 $("body").on("click","#portfolio-tab",function(event){
     renderPortfolio()
 });
