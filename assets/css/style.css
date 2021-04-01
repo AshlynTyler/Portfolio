@@ -102,6 +102,18 @@ body{
     user-select: none;
 
     -moz-user-select: none;
+
+    transition: background 300ms;
+}
+
+.project-link:hover{
+    background: #aa0066;
+
+    transition: background 300ms;
+}
+
+.project-link:active{
+    background: #660066;
 }
 
 p{

@@ -366,4 +366,7 @@ $("body").on("click","#contact-tab",function(event){
     renderContact();
 })
 
-//
+$("body").on("mouseenter",".project-link",function(event){
+    //$(this).css("background","#aa0066")
+    //console.log($(this))
+})
